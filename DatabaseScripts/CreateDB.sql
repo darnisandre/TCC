@@ -14,30 +14,26 @@ create table route(
     description text not null
 );
 
-create table configuration(
-	id int auto_increment primary key,
-    description text not null
-);
 
 create table location(
 	id int auto_increment primary key,
 	latitude numeric(10,7) not null,
     longitude numeric(10,7) not null,
     description text not null,
-    configuration_active_id int,
-    foreign key fk_location_configuration_active (configuration_active_id) 
-		references configuration (id)
+    configuration_active_id int
 );
 
-create table location_configuration(
+create table configuration(
 	id int auto_increment primary key,
-    location_id int not null,
-    configuration_id int not null,
-    foreign key fk_location_configuration_location (location_id) 
-		references location (id),
-    foreign key fk_location_configuration_configuration (configuration_id)
-		references configuration (id)
+    description text not null,
+	location_id int not null,
+    foreign key fk_configuration_location (location_id) 
+		references location (id)
 );
+
+alter table location add constraint 
+foreign key fk_location_configuration_active (configuration_active_id) 
+		references configuration (id);
 
 create table beacon_type(
 	id int auto_increment primary key,
