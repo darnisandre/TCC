@@ -1,6 +1,6 @@
-# TCC
+# NAV.IN
 
-Nav.in: Sistema de navegação indoor utilizando Beacons voltado para pessoas com deficiência visual e auditiva
+Sistema de navegação indoor utilizando Beacons voltado para pessoas com deficiência visual e auditiva
 
 ***DatabaseScripts***
 * Contém os scripts necessários para criar e popular a base de dados do sistema.
