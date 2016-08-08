@@ -1,6 +1,6 @@
-# NAV.IN
+# Nav.In
 
-Sistema de navegação indoor utilizando Beacons voltado para pessoas com deficiência visual e auditiva
+***Navigation Indoor***: É um sistema de navegação indoor que utiliza Beacons voltado para pessoas com deficiência visual e auditiva.
 
 ***DatabaseScripts***
 * Contém os scripts necessários para criar e popular a base de dados do sistema.
