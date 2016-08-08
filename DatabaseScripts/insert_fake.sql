@@ -762,3 +762,57 @@ VALUES
 (
 2,
 3);
+
+-- Connections
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+1,
+2,
+10.5,
+5);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+1,
+3,
+90,
+8);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+2,
+4,
+30,
+3);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+4,
+10,
+60,
+10);
