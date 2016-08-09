@@ -7,8 +7,8 @@ INSERT INTO `NAVIN`.`location`
 `configuration_active_id`)
 VALUES
 (
-31.99938,
-55.88999,
+-30.05849,
+-51.17602,
 "Museu da PUCRS",
 null);
 
