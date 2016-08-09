@@ -164,14 +164,7 @@ INSERT INTO `NAVIN`.`beacon_route`
 `beacon_id`)
 VALUES
 (1,
-2);
-
-INSERT INTO `NAVIN`.`beacon_route`
-(`route_id`,
-`beacon_id`)
-VALUES
-(1,
-3);
+5);
 
 INSERT INTO `NAVIN`.`beacon_route`
 (`route_id`,
@@ -194,27 +187,6 @@ VALUES
 2,
 "Gate da Entrada Principal");
 
-INSERT INTO `NAVIN`.`gate`
-(
-`beacon_a_id`,
-`beacon_b_id`,
-`description`)
-VALUES
-(
-3,
-6,
-"Gate da Entrada da area da Fisica");
-
-INSERT INTO `NAVIN`.`gate`
-(
-`beacon_a_id`,
-`beacon_b_id`,
-`description`)
-VALUES
-(
-4,
-5,
-"Gate da Entrada da area da Quimica");
 
 -- Category
 
