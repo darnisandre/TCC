@@ -9,7 +9,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToMany;
-import javax.persistence.OneToMany;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -46,7 +46,7 @@ public class Beacon {
 		this.id = id;
 	}
 
-	@OneToMany
+	@ManyToOne
 	@JoinColumn(columnDefinition="configuration_id", referencedColumnName="id")
 	public Configuration getConfiguration() {
 		return configuration;
@@ -56,7 +56,7 @@ public class Beacon {
 		this.configuration = configuration;
 	}
 
-	@OneToMany()
+	@ManyToOne()
 	@JoinColumn(columnDefinition="type_id", referencedColumnName="id")
 	public BeaconType getType() {
 		return type;

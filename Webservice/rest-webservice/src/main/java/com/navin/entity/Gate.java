@@ -6,7 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
-import javax.persistence.OneToMany;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -38,7 +38,7 @@ public class Gate {
 		this.id = id;
 	}
 
-	@OneToMany
+	@ManyToOne
 	@JoinColumn(columnDefinition = "beacon_a_id", referencedColumnName = "id")
 	public Beacon getBeaconA() {
 		return beaconA;
@@ -48,7 +48,7 @@ public class Gate {
 		this.beaconA = beaconA;
 	}
 
-	@OneToMany
+	@ManyToOne
 	@JoinColumn(columnDefinition = "beacon_b_id", referencedColumnName = "id")
 	public Beacon getBeaconB() {
 		return beaconB;

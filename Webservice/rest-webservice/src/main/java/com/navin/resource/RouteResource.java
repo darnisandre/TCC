@@ -9,6 +9,7 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
+import com.navin.dto.RouteDTO;
 import com.navin.entity.Beacon;
 import com.navin.entity.Route;
 import com.navin.service.RouteService;
@@ -21,7 +22,7 @@ public class RouteResource {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     @Consumes({MediaType.APPLICATION_JSON})
-    public List<Route> findRoutes(@PathParam("id") Long locationId){
+    public List<RouteDTO> findRoutes(@PathParam("id") Long locationId){
         return RouteService.instace().findRoutesByLocation(locationId);
     }
     

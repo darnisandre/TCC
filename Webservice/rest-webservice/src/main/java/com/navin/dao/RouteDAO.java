@@ -16,6 +16,7 @@ public class RouteDAO extends AbstractDAO{
 		criteria.createAlias("b.configuration", "c");
 		criteria.createAlias("c.location", "l");
 		criteria.add(Restrictions.eq("l.id",locationId));
+		criteria.setResultTransformer(Criteria.DISTINCT_ROOT_ENTITY);
 		return criteria.list();
 	}
 	

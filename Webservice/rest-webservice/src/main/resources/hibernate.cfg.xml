@@ -14,5 +14,11 @@
         
         <mapping class="com.navin.entity.Configuration" />
         <mapping class="com.navin.entity.Location" />
+        <mapping class="com.navin.entity.Beacon" />
+        <mapping class="com.navin.entity.BeaconType" />
+        <mapping class="com.navin.entity.Category" />
+        <mapping class="com.navin.entity.Connection" />
+        <mapping class="com.navin.entity.Gate" />
+        <mapping class="com.navin.entity.Route" />
     </session-factory>
 </hibernate-configuration>

@@ -1,11 +1,16 @@
 package com.navin.service;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import com.navin.dao.BeaconDAO;
 import com.navin.dao.RouteDAO;
+import com.navin.dto.LocationDTO;
+import com.navin.dto.RouteDTO;
 import com.navin.entity.Beacon;
+import com.navin.entity.Location;
 import com.navin.entity.Route;
+import com.navin.util.CastToDTO;
 
 public class RouteService {
 	private static RouteDAO routeDAO;
@@ -37,11 +42,16 @@ public class RouteService {
 		return routeDAO;
 	}
 
-	public List<Route> findRoutesByLocation(Long locationId) {
-		return routeDAO.findRoutesByLocation(locationId);
+	public List<RouteDTO> findRoutesByLocation(Long locationId) {
+		List<Route> routes = getRouteDAO().findRoutesByLocation(locationId);
+		List<RouteDTO> routesDto = new ArrayList<RouteDTO>();
+		for(Route r : routes){
+			routesDto.add(CastToDTO.toDto(r));
+		}
+		return routesDto;
 	}
 
 	public List<Beacon> findBeaconsByRoute(Long routeId) {
-		return beaconDAO.findBeaconsByRoute(routeId);
+		return getBeaconDAO().findBeaconsByRoute(routeId);
 	}
 }
