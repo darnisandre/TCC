@@ -10,7 +10,7 @@ VALUES
 31.99938,
 55.88999,
 "Museu da PUCRS",
-1);
+null);
 
 -- Configuration
 
@@ -20,8 +20,10 @@ INSERT INTO `NAVIN`.`configuration`
 `location_id`)
 VALUES
 (
-"Configuração Padrão",
+"Configuracao Padrao",
 1);
+
+UPDATE `NAVIN`.`location` SET `configuration_active_id` = 1 WHERE `id` = 1;
 
 -- Routes
 
@@ -29,8 +31,30 @@ INSERT INTO `NAVIN`.`route`
 (`name`,
 `description`)
 VALUES
-("Rota Padrão",
+("Rota Padrao",
 "Rota para exemplificar o funcionamento do aplicativo");
+
+-- Beacon_Type
+
+INSERT INTO `NAVIN`.`beacon_type`
+(`description`)
+VALUES
+("SECTOR_BEACON_TYPE");
+
+INSERT INTO `NAVIN`.`beacon_type`
+(`description`)
+VALUES
+("OBJECT_BEACON_TYPE");
+
+INSERT INTO `NAVIN`.`beacon_type`
+(`description`)
+VALUES
+("GATE_BEACON_TYPE");
+
+INSERT INTO `NAVIN`.`beacon_type`
+(`description`)
+VALUES
+("GATE_SECTOR_BEACON_TYPE");
 
 
 -- Beacons
@@ -179,8 +203,8 @@ INSERT INTO `NAVIN`.`category`
 `description`)
 VALUES
 (
-"Química",
-"Mostra experimentos sobre química");
+"Quimica",
+"Mostra experimentos sobre quimica");
 
 INSERT INTO `NAVIN`.`category`
 (
@@ -188,8 +212,8 @@ INSERT INTO `NAVIN`.`category`
 `description`)
 VALUES
 (
-"Física",
-"Mostra experimentos sobre física");
+"Fisica",
+"Mostra experimentos sobre fisica");
 
 -- Beacon_Category
 
