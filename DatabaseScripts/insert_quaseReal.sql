@@ -106,7 +106,7 @@ VALUES
 (26374859485960493827384758673858,
 100,
 200,
-1,
+2,
 "Beacon Verde",
 1);
 
@@ -121,7 +121,7 @@ VALUES
 (26374859485960493827384758673858,
 100,
 200,
-1,
+2,
 "Beacon Verde 2",
 1);
 
@@ -148,20 +148,6 @@ INSERT INTO `NAVIN`.`beacon_route`
 VALUES
 (1,
 3);
-
-INSERT INTO `NAVIN`.`beacon_route`
-(`route_id`,
-`beacon_id`)
-VALUES
-(1,
-4);
-
-INSERT INTO `NAVIN`.`beacon_route`
-(`route_id`,
-`beacon_id`)
-VALUES
-(1,
-5);
 
 INSERT INTO `NAVIN`.`beacon_route`
 (`route_id`,
