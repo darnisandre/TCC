@@ -19,5 +19,11 @@ public class RouteDAO extends AbstractDAO{
 		criteria.setResultTransformer(Criteria.DISTINCT_ROOT_ENTITY);
 		return criteria.list();
 	}
+
+	public Route findRoutesById(Long routeId) {
+		Criteria criteria = createCriteria(Route.class,"r");
+		criteria.add(Restrictions.eq("r.id",routeId));
+		return (Route) criteria.uniqueResult();
+	}
 	
 }

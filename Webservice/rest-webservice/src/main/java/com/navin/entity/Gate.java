@@ -39,7 +39,7 @@ public class Gate {
 	}
 
 	@ManyToOne
-	@JoinColumn(columnDefinition = "beacon_a_id", referencedColumnName = "id")
+	@JoinColumn(name = "beacon_a_id", referencedColumnName = "id")
 	public Beacon getBeaconA() {
 		return beaconA;
 	}
@@ -49,7 +49,7 @@ public class Gate {
 	}
 
 	@ManyToOne
-	@JoinColumn(columnDefinition = "beacon_b_id", referencedColumnName = "id")
+	@JoinColumn(name = "beacon_b_id", referencedColumnName = "id")
 	public Beacon getBeaconB() {
 		return beaconB;
 	}

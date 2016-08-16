@@ -18,5 +18,11 @@ public class LocationDAO extends AbstractDAO{
 				longitude+MAX_LOCATION_DISTANCE));
 		return criteria.list();
 	}
+
+	public Location findById(Long locationId) {
+		Criteria criteria = createCriteria(Location.class,"l");
+		criteria.add(Restrictions.eq("id", locationId));
+		return (Location) criteria.uniqueResult();
+	}
 	
 }

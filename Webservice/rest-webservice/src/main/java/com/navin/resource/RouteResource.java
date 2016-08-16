@@ -10,8 +10,6 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
 import com.navin.dto.RouteDTO;
-import com.navin.entity.Beacon;
-import com.navin.entity.Route;
 import com.navin.service.RouteService;
 
 
@@ -30,8 +28,8 @@ public class RouteResource {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     @Consumes({MediaType.APPLICATION_JSON})
-    public List<Beacon> findBeacons(@PathParam("id") Long routeId){
-        return RouteService.instace().findBeaconsByRoute(routeId);
+    public RouteDTO findBeacons(@PathParam("id") Long routeId){
+        return RouteService.instace().findRouteById(routeId);
     }
 
 }
