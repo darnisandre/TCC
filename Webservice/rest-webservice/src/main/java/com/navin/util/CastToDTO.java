@@ -26,6 +26,7 @@ public class CastToDTO {
 			conf.setId(activeConfiguration.getId());
 			location.setActiveConfiguration(conf);
 		}
+		location.setLastUpdated(l.getLastUpdated());
 		location.setDescription(l.getDescription());
 		location.setId(l.getId());
 		location.setLatitude(l.getLatitude());

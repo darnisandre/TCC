@@ -1,11 +1,14 @@
 package com.navin.dto;
 
+import java.util.Date;
+
 public class LocationDTO {
 	private Long id;
 	private String description;
 	private Double latitude;
 	private Double longitude;
 	private ConfigurationDTO activeConfiguration;
+	private Date lastUpdated;
 
 
 	public Long getId() {
@@ -46,6 +49,14 @@ public class LocationDTO {
 
 	public void setActiveConfiguration(ConfigurationDTO activeConfiguration) {
 		this.activeConfiguration = activeConfiguration;
+	}
+
+	public Date getLastUpdated() {
+		return lastUpdated;
+	}
+
+	public void setLastUpdated(Date lastUpdated) {
+		this.lastUpdated = lastUpdated;
 	}
 
 }

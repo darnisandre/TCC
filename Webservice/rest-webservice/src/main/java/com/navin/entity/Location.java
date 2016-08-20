@@ -1,5 +1,7 @@
 package com.navin.entity;
 
+import java.util.Date;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -18,6 +20,7 @@ public class Location {
 	private Double latitude;
 	private Double longitude;
 	private Configuration activeConfiguration;
+	private Date lastUpdated;
 
 	@Column(name = "description")
 	public String getDescription() {
@@ -65,6 +68,15 @@ public class Location {
 
 	public void setLatitude(Double latitude) {
 		this.latitude = latitude;
+	}
+
+	@Column(name = "dt_last_updated")
+	public Date getLastUpdated() {
+		return lastUpdated;
+	}
+
+	public void setLastUpdated(Date lastUpdated) {
+		this.lastUpdated = lastUpdated;
 	}
 
 }
