@@ -1,5 +1,7 @@
 CREATE DATABASE NAVIN;
 
+ALTER DATABASE `NAVIN` CHARSET = Latin1 COLLATE = latin1_swedish_ci;
+
 use NAVIN;
 
 create table category(
