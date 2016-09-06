@@ -43,7 +43,7 @@ create table beacon_type(
 
 create table beacon(
 	id int auto_increment primary key,
-    uuid varchar(32) not null,
+    uuid varchar(36) not null,
     major int not null,
     minor int not null,
     type_id int not null,
