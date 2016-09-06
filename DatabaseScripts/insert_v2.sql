@@ -79,7 +79,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (1,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 47873,
 59567,
 1,
@@ -96,7 +96,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (2,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 100,
 200,
 1,
@@ -113,7 +113,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (3,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 27773,
 49738,
 1,
@@ -130,7 +130,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (4,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 100,
 200,
 1,
@@ -147,7 +147,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (5,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 61786,
 1024,
 1,
@@ -164,7 +164,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (6,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 100,
 200,
 1,
@@ -489,7 +489,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (7,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 7,
 200,
 1,
@@ -506,7 +506,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (8,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 8,
 200,
 1,
@@ -523,7 +523,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (9,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 9,
 200,
 1,
@@ -540,7 +540,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (10,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 10,
 200,
 1,
@@ -557,7 +557,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (11,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 11,
 200,
 1,
@@ -574,7 +574,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (12,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 12,
 200,
 1,
@@ -591,7 +591,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (13,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 13,
 200,
 1,
@@ -608,7 +608,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (14,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 14,
 200,
 1,
@@ -625,7 +625,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (15,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 15,
 200,
 1,
@@ -642,7 +642,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (16,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 16,
 200,
 1,
@@ -659,7 +659,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (17,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 17,
 200,
 1,
@@ -676,7 +676,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (18,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 18,
 200,
 1,
@@ -693,7 +693,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (19,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 19,
 200,
 1,
@@ -710,7 +710,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (20,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 20,
 200,
 1,
@@ -727,7 +727,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (21,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 21,
 200,
 1,
@@ -744,7 +744,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (22,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 22,
 200,
 1,
@@ -761,7 +761,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (23,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 23,
 200,
 1,
@@ -780,7 +780,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (24,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 24,
 200,
 1,
@@ -797,7 +797,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (25,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 25,
 200,
 1,
@@ -814,7 +814,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (26,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 26,
 200,
 1,
@@ -831,7 +831,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (27,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 27,
 200,
 1,
@@ -848,7 +848,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (28,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 28,
 200,
 1,
@@ -865,7 +865,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (29,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 29,
 200,
 1,
@@ -882,7 +882,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (30,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 30,
 200,
 1,
@@ -899,7 +899,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (31,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 31,
 200,
 1,
@@ -916,7 +916,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (32,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 32,
 200,
 1,
@@ -933,7 +933,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (33,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 33,
 200,
 1,
@@ -950,7 +950,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (34,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 34,
 200,
 1,
@@ -967,7 +967,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (35,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 35,
 200,
 1,
@@ -984,7 +984,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (36,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 36,
 200,
 1,
@@ -1001,7 +1001,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (37,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 37,
 200,
 1,
@@ -1018,7 +1018,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (38,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 38,
 200,
 1,
@@ -1035,7 +1035,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (39,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 39,
 200,
 1,
@@ -1052,7 +1052,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (40,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 40,
 200,
 1,
@@ -1069,7 +1069,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (41,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 41,
 200,
 1,
@@ -1086,7 +1086,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (42,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 42,
 200,
 1,
@@ -1103,7 +1103,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (43,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 43,
 200,
 1,
@@ -1120,7 +1120,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (44,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 44,
 200,
 1,
@@ -1137,7 +1137,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (45,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 45,
 200,
 1,
@@ -1154,7 +1154,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (46,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 46,
 200,
 1,
@@ -1171,7 +1171,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (47,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 47,
 200,
 1,
@@ -1190,7 +1190,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (48,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 48,
 200,
 1,
@@ -1207,7 +1207,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (49,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 49,
 200,
 1,
@@ -1224,7 +1224,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (50,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 50,
 200,
 1,
@@ -1241,7 +1241,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (51,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 51,
 200,
 1,
@@ -1258,7 +1258,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (52,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 52,
 200,
 1,
@@ -1275,7 +1275,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (53,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 53,
 200,
 1,
@@ -1292,7 +1292,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (54,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 54,
 200,
 1,
@@ -1309,7 +1309,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (55,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 55,
 200,
 1,
@@ -1326,7 +1326,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (56,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 56,
 200,
 1,
@@ -1343,7 +1343,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (57,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 57,
 200,
 1,
@@ -1360,7 +1360,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (58,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 58,
 200,
 1,
@@ -1377,7 +1377,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (59,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 59,
 200,
 1,
@@ -1394,7 +1394,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (60,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 60,
 200,
 1,
@@ -1411,7 +1411,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (61,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 61,
 200,
 1,
@@ -1428,7 +1428,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (62,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 62,
 200,
 1,
@@ -1445,7 +1445,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (63,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 63,
 200,
 1,
@@ -1462,7 +1462,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (64,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 64,
 200,
 1,
@@ -1479,7 +1479,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (65,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 65,
 200,
 1,
@@ -1496,7 +1496,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (66,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 66,
 200,
 1,
@@ -1513,7 +1513,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (67,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 67,
 200,
 1,
@@ -1530,7 +1530,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (68,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 68,
 200,
 1,
@@ -1547,7 +1547,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (69,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 69,
 200,
 1,
@@ -1564,7 +1564,7 @@ INSERT INTO `NAVIN`.`beacon`
 `configuration_id`)
 VALUES
 (70,
-"b9407f30-f5f8-466e-aff9-25556b57",
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
 70,
 200,
 1,
