@@ -23,7 +23,7 @@ INSERT INTO `NAVIN`.`configuration`
 `location_id`)
 VALUES
 (1,
-"Configuracao de testes",
+"Configuração de testes",
 1);
 
 UPDATE `NAVIN`.`location` SET `configuration_active_id` = 1 WHERE `id` = 1;
@@ -42,7 +42,7 @@ INSERT INTO `NAVIN`.`route`
 `description`)
 VALUES
 (2, "Rota 1",
-"Rota que passa so em uma categoria");
+"Rota que passa só em uma categoria");
 
 -- Beacon_Type
 
@@ -219,7 +219,7 @@ INSERT INTO `NAVIN`.`category`
 VALUES
 (1,
 "Entrada/Saida",
-"Beacons que sao entrada ou saida do local");
+"Beacons que são entrada ou saída do local");
 
 INSERT INTO `NAVIN`.`category`
 (`id`,
@@ -227,8 +227,8 @@ INSERT INTO `NAVIN`.`category`
 `description`)
 VALUES
 (2,
-"Fisica",
-"Mostra experimentos sobre fisica");
+"Física",
+"Mostra experimentos sobre física");
 
 INSERT INTO `NAVIN`.`category`
 (`id`,
@@ -236,8 +236,8 @@ INSERT INTO `NAVIN`.`category`
 `description`)
 VALUES
 (3,
-"Quimica",
-"Mostra experimentos sobre quimica");
+"Química",
+"Mostra experimentos sobre química");
 
 -- Beacon_Category
 
