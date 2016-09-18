@@ -20,8 +20,7 @@ create table location(
 	latitude numeric(10,7) not null,
     longitude numeric(10,7) not null,
     description text not null,
-    configuration_active_id int,
-    dt_last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    configuration_active_id int
 );
 
 create table configuration(
