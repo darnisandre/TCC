@@ -44,20 +44,10 @@ public class CastToDTO {
 		route.setName(r.getName());
 		List<BeaconDTO> beacons = new ArrayList<BeaconDTO>();
 		for (Beacon b : r.getBeacons()) {
-			beacons.add(toBeaconDto(b));
+			beacons.add(toDto(b));
 		}
 		route.setBeacons(beacons);
 		return route;
-	}
-
-	public static BeaconDTO toBeaconDto(Beacon b) {
-		BeaconDTO beaconDto = new BeaconDTO();
-		beaconDto.setDescription(b.getDescription());
-		beaconDto.setId(b.getId());
-		beaconDto.setMajor(b.getMajor());
-		beaconDto.setMinor(b.getMinor());
-		beaconDto.setUuid(b.getUuid());
-		return beaconDto;
 	}
 
 	public static ConnectionDTO toDto(Connection c) {
@@ -96,7 +86,7 @@ public class CastToDTO {
 		dto.setName(c.getName());
 		List<BeaconDTO> beacons = new ArrayList<BeaconDTO>();
 		for (Beacon b : c.getBeacons()) {
-			beacons.add(toBeaconDto(b));
+			beacons.add(toDto(b));
 		}
 		dto.setBeacons(beacons);
 		
@@ -105,7 +95,12 @@ public class CastToDTO {
 	}
 
 	public static BeaconDTO toDto(Beacon b) {
-		BeaconDTO dto = toBeaconDto(b);
+		BeaconDTO dto = new BeaconDTO();
+		dto.setDescription(b.getDescription());
+		dto.setId(b.getId());
+		dto.setMajor(b.getMajor());
+		dto.setMinor(b.getMinor());
+		dto.setUuid(b.getUuid());
 		List<CategoryDTO> categories = new ArrayList<CategoryDTO>();
 		for (Category c : b.getCategories()) {
 			CategoryDTO categoryDTO = new CategoryDTO();
@@ -119,7 +114,6 @@ public class CastToDTO {
 		List<RouteDTO> routes = new ArrayList<RouteDTO>();
 		for (Route r : b.getRoutes()) {
 			RouteDTO route = new RouteDTO();
-
 			route.setDescription(r.getDescription());
 			route.setId(r.getId());
 			route.setName(r.getName());
