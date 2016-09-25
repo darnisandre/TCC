@@ -21,6 +21,7 @@ public class ConnectionDAO extends AbstractDAO {
 		criteria.createAlias("c.beaconA", "b");
 		criteria.createAlias("b.configuration", "conf");
 		criteria.createAlias("conf.location", "l");
+		criteria.add(Restrictions.eqProperty("l.activeConfiguration.id", "conf.id"));
 		criteria.add(Restrictions.eq("l.id", locationId));
 		return criteria.list();
 	}

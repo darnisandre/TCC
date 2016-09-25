@@ -15,6 +15,7 @@ public class CategoryDAO extends AbstractDAO {
 		criteria.createAlias("b.configuration", "conf");
 		criteria.createAlias("conf.location", "l");
 		criteria.add(Restrictions.eq("l.id", locationId));
+		criteria.add(Restrictions.eqProperty("l.activeConfiguration.id", "conf.id"));
 		criteria.setResultTransformer(Criteria.DISTINCT_ROOT_ENTITY);
 		return criteria.list();
 	}

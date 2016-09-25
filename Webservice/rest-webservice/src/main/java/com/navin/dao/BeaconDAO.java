@@ -19,6 +19,7 @@ public class BeaconDAO extends AbstractDAO {
 		Criteria criteria = createCriteria(Beacon.class, "b");
 		criteria.createAlias("b.configuration", "c");
 		criteria.createAlias("c.location", "l");
+		criteria.add(Restrictions.eqProperty("l.activeConfiguration.id", "c.id"));
 		criteria.add(Restrictions.eq("l.id", locationId));
 		return criteria.list();
 	}

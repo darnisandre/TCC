@@ -22,6 +22,7 @@ public class GateDAO extends AbstractDAO {
 		criteria.createAlias("g.beaconA", "b");
 		criteria.createAlias("b.configuration", "conf");
 		criteria.createAlias("conf.location", "l");
+		criteria.add(Restrictions.eqProperty("l.activeConfiguration.id", "conf.id"));
 		criteria.add(Restrictions.eq("l.id", locationId));
 		return criteria.list();
 	}
