@@ -1570,3 +1570,1255 @@ VALUES
 1,
 "Beacon Verde 2",
 4);
+
+-- Connections Fake 1
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+7,
+8,
+270,
+5);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+8,
+9,
+0,
+4);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+9,
+10,
+45,
+2);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+7,
+23,
+90,
+4);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+23,
+22,
+90,
+3);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+22,
+21,
+23,
+1.5);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+21,
+20,
+0,
+2);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+7,
+13,
+0,
+4);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+13,
+12,
+315,
+3);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+12,
+11,
+315,
+2);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+12,
+14,
+23,
+6);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+14,
+15,
+0,
+4);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+13,
+17,
+90,
+4);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+17,
+16,
+0,
+6);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+14,
+16,
+90,
+3);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+16,
+18,
+90,
+2);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+18,
+19,
+180,
+2);
+
+-- Routes Fake 1
+
+INSERT INTO `NAVIN`.`route`
+(`id`,`name`,
+`description`)
+VALUES
+(3, "Rota 1",
+"Descrição da rota 1");
+
+INSERT INTO `NAVIN`.`route`
+(`id`,`name`,
+`description`)
+VALUES
+(4, "Rota 2",
+"Descrição da rota 2");
+
+INSERT INTO `NAVIN`.`route`
+(`id`,`name`,
+`description`)
+VALUES
+(5, "Rota 3",
+"Descrição da rota 3");
+
+-- Beacon_Route
+
+INSERT INTO `NAVIN`.`beacon_route`
+(`route_id`,
+`beacon_id`)
+VALUES
+(3,
+10);
+
+INSERT INTO `NAVIN`.`beacon_route`
+(`route_id`,
+`beacon_id`)
+VALUES
+(3,
+11);
+
+INSERT INTO `NAVIN`.`beacon_route`
+(`route_id`,
+`beacon_id`)
+VALUES
+(3,
+15);
+
+INSERT INTO `NAVIN`.`beacon_route`
+(`route_id`,
+`beacon_id`)
+VALUES
+(4,
+10);
+
+INSERT INTO `NAVIN`.`beacon_route`
+(`route_id`,
+`beacon_id`)
+VALUES
+(4,
+19);
+
+INSERT INTO `NAVIN`.`beacon_route`
+(`route_id`,
+`beacon_id`)
+VALUES
+(4,
+20);
+
+INSERT INTO `NAVIN`.`beacon_route`
+(`route_id`,
+`beacon_id`)
+VALUES
+(5,
+11);
+
+INSERT INTO `NAVIN`.`beacon_route`
+(`route_id`,
+`beacon_id`)
+VALUES
+(5,
+19);
+
+-- Connections Fake 2
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+24,
+37,
+315,
+1.5);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+24,
+25,
+45,
+1.5);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+37,
+38,
+270,
+1);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+38,
+39,
+315,
+1);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+39,
+40,
+23,
+1.5);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+40,
+41,
+0,
+1.5);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+37,
+36,
+23,
+4);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+36,
+42,
+338,
+2);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+36,
+26,
+135,
+2);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+36,
+35,
+45,
+2);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+42,
+35,
+135,
+3);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+42,
+34,
+45,
+3);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+42,
+43,
+338,
+2);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+43,
+34,
+135,
+4);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+43,
+44,
+23,
+2);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+44,
+45,
+0,
+2);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+45,
+46,
+270,
+1);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+25,
+26,
+0,
+2);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+26,
+35,
+0,
+1.5);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+35,
+34,
+0,
+2);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+34,
+33,
+0,
+2);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+33,
+32,
+0,
+2);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+33,
+31,
+90,
+1);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+32,
+31,
+135,
+1);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+31,
+30,
+135,
+2);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+30,
+29,
+158,
+2);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+29,
+28,
+180,
+2);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+28,
+27,
+225,
+1);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+26,
+27,
+68,
+1);
+
+-- Routes Fake 2
+
+INSERT INTO `NAVIN`.`route`
+(`id`,`name`,
+`description`)
+VALUES
+(6, "Rota 1",
+"Descrição da rota 1");
+
+INSERT INTO `NAVIN`.`route`
+(`id`,`name`,
+`description`)
+VALUES
+(7, "Rota 2",
+"Descrição da rota 2");
+
+INSERT INTO `NAVIN`.`route`
+(`id`,`name`,
+`description`)
+VALUES
+(8, "Rota 3",
+"Descrição da rota 3");
+
+-- Beacon_Route
+
+INSERT INTO `NAVIN`.`beacon_route`
+(`route_id`,
+`beacon_id`)
+VALUES
+(6,
+27);
+
+INSERT INTO `NAVIN`.`beacon_route`
+(`route_id`,
+`beacon_id`)
+VALUES
+(6,
+41);
+
+INSERT INTO `NAVIN`.`beacon_route`
+(`route_id`,
+`beacon_id`)
+VALUES
+(6,
+32);
+
+INSERT INTO `NAVIN`.`beacon_route`
+(`route_id`,
+`beacon_id`)
+VALUES
+(7,
+38);
+
+INSERT INTO `NAVIN`.`beacon_route`
+(`route_id`,
+`beacon_id`)
+VALUES
+(7,
+41);
+
+INSERT INTO `NAVIN`.`beacon_route`
+(`route_id`,
+`beacon_id`)
+VALUES
+(7,
+46);
+
+INSERT INTO `NAVIN`.`beacon_route`
+(`route_id`,
+`beacon_id`)
+VALUES
+(8,
+32);
+
+INSERT INTO `NAVIN`.`beacon_route`
+(`route_id`,
+`beacon_id`)
+VALUES
+(8,
+46);
+
+INSERT INTO `NAVIN`.`beacon_route`
+(`route_id`,
+`beacon_id`)
+VALUES
+(8,
+41);
+
+-- Connections Fake 3
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+48,
+49,
+270,
+2);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+49,
+50,
+270,
+2);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+50,
+51,
+0,
+2);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+51,
+52,
+45,
+2);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+52,
+53,
+338,
+1);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+50,
+54,
+23,
+2);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+54,
+51,
+315,
+1);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+54,
+52,
+23,
+2);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+54,
+55,
+135,
+1);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+49,
+55,
+0,
+1);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+48,
+61,
+45,
+1);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+61,
+57,
+338,
+4);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+57,
+56,
+338,
+3);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+57,
+58,
+68,
+1);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+56,
+58,
+113,
+3);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+57,
+59,
+113,
+2);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+57,
+60,
+135,
+2);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+60,
+61,
+203,
+1);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+59,
+58,
+338,
+1);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+59,
+60,
+225,
+1);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+59,
+63,
+90,
+2);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+61,
+62,
+113,
+5);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+62,
+63,
+0,
+5);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+63,
+64,
+0,
+3);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+64,
+65,
+0,
+4);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+64,
+66,
+23,
+3);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+66,
+67,
+90,
+2);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+67,
+68,
+180,
+2);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+68,
+69,
+135,
+1);
+
+-- Routes Fake 3
+
+INSERT INTO `NAVIN`.`route`
+(`id`,`name`,
+`description`)
+VALUES
+(9, "Rota 1",
+"Descrição da rota 1");
+
+INSERT INTO `NAVIN`.`route`
+(`id`,`name`,
+`description`)
+VALUES
+(10, "Rota 2",
+"Descrição da rota 2");
+
+INSERT INTO `NAVIN`.`route`
+(`id`,`name`,
+`description`)
+VALUES
+(11, "Rota 3",
+"Descrição da rota 3");
+
+-- Beacon_Route
+
+INSERT INTO `NAVIN`.`beacon_route`
+(`route_id`,
+`beacon_id`)
+VALUES
+(9,
+69);
+
+INSERT INTO `NAVIN`.`beacon_route`
+(`route_id`,
+`beacon_id`)
+VALUES
+(9,
+55);
+
+INSERT INTO `NAVIN`.`beacon_route`
+(`route_id`,
+`beacon_id`)
+VALUES
+(9,
+56);
+
+INSERT INTO `NAVIN`.`beacon_route`
+(`route_id`,
+`beacon_id`)
+VALUES
+(10,
+53);
+
+INSERT INTO `NAVIN`.`beacon_route`
+(`route_id`,
+`beacon_id`)
+VALUES
+(10,
+51);
+
+INSERT INTO `NAVIN`.`beacon_route`
+(`route_id`,
+`beacon_id`)
+VALUES
+(10,
+60);
+
+INSERT INTO `NAVIN`.`beacon_route`
+(`route_id`,
+`beacon_id`)
+VALUES
+(11,
+58);
+
+INSERT INTO `NAVIN`.`beacon_route`
+(`route_id`,
+`beacon_id`)
+VALUES
+(11,
+65);
+
+INSERT INTO `NAVIN`.`beacon_route`
+(`route_id`,
+`beacon_id`)
+VALUES
+(11,
+60);
+
+INSERT INTO `NAVIN`.`beacon_route`
+(`route_id`,
+`beacon_id`)
+VALUES
+(11,
+53);
+
+INSERT INTO `NAVIN`.`beacon_route`
+(`route_id`,
+`beacon_id`)
+VALUES
+(11,
+56);
