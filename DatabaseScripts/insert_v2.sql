@@ -2822,3 +2822,24 @@ INSERT INTO `NAVIN`.`beacon_route`
 VALUES
 (11,
 56);
+
+-- Beacon category
+
+insert into beacon_category (category_id, beacon_id) VALUES (4, 10);
+insert into beacon_category (category_id, beacon_id) VALUES (5, 11);
+insert into beacon_category (category_id, beacon_id) VALUES (6, 15);
+insert into beacon_category (category_id, beacon_id) VALUES (7, 19);
+insert into beacon_category (category_id, beacon_id) VALUES (7, 20);
+insert into beacon_category (category_id, beacon_id) VALUES (8, 38);
+insert into beacon_category (category_id, beacon_id) VALUES (8, 41);
+insert into beacon_category (category_id, beacon_id) VALUES (9, 46);
+insert into beacon_category (category_id, beacon_id) VALUES (10, 32);
+insert into beacon_category (category_id, beacon_id) VALUES (10, 27);
+insert into beacon_category (category_id, beacon_id) VALUES (11, 51);
+insert into beacon_category (category_id, beacon_id) VALUES (11, 53);
+insert into beacon_category (category_id, beacon_id) VALUES (11, 55);
+insert into beacon_category (category_id, beacon_id) VALUES (12, 60);
+insert into beacon_category (category_id, beacon_id) VALUES (12, 56);
+insert into beacon_category (category_id, beacon_id) VALUES (12, 58);
+insert into beacon_category (category_id, beacon_id) VALUES (13, 65);
+insert into beacon_category (category_id, beacon_id) VALUES (13, 69);
