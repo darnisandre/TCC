@@ -1,0 +1,4 @@
+set character_set_database = latin1;                                                                                                                                                                                      
+set character_set_client = latin1;
+set character_set_results = latin1;
+set character_set_server = latin1;
