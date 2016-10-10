@@ -2843,3 +2843,133 @@ insert into beacon_category (category_id, beacon_id) VALUES (12, 56);
 insert into beacon_category (category_id, beacon_id) VALUES (12, 58);
 insert into beacon_category (category_id, beacon_id) VALUES (13, 65);
 insert into beacon_category (category_id, beacon_id) VALUES (13, 69);
+
+
+-- para usar testes individuais
+
+INSERT INTO `NAVIN`.`configuration`
+(`id`,
+`description`,
+`location_id`)
+VALUES
+(5,
+"Configuração 3",
+1);
+
+UPDATE `NAVIN`.`location` SET `configuration_active_id` = 5 WHERE `id` = 1;
+
+INSERT INTO `NAVIN`.`route`
+(`id`,`name`,
+`description`)
+VALUES
+(12, "Rota 1, 2, 3",
+"Rota que passa por todas beacons do dedé");
+
+INSERT INTO `NAVIN`.`beacon`
+(`id`,
+`uuid`,
+`major`,
+`minor`,
+`type_id`,
+`description`,
+`configuration_id`)
+VALUES
+(71,
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
+47873,
+59567,
+2,
+"Esta é a Entrada/Saída do laboratório.",
+5);
+
+INSERT INTO `NAVIN`.`beacon`
+(`id`,
+`uuid`,
+`major`,
+`minor`,
+`type_id`,
+`description`,
+`configuration_id`)
+VALUES
+(72,
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
+27773,
+49738,
+1,
+"Beacon auxiliar",
+5);
+
+INSERT INTO `NAVIN`.`beacon`
+(`id`,
+`uuid`,
+`major`,
+`minor`,
+`type_id`,
+`description`,
+`configuration_id`)
+VALUES
+(73,
+"b9407f30-f5f8-466e-aff9-25556b57fe6d",
+61786,
+1024,
+2,
+"Este é um computador usado no desenvolvimento.",
+5);
+
+INSERT INTO `NAVIN`.`beacon_route`
+(`route_id`,
+`beacon_id`)
+VALUES
+(12,
+71);
+
+INSERT INTO `NAVIN`.`beacon_route`
+(`route_id`,
+`beacon_id`)
+VALUES
+(12,
+73);
+
+INSERT INTO `NAVIN`.`beacon_category`
+(
+`category_id`,
+`beacon_id`)
+VALUES
+(
+1,
+71);
+
+INSERT INTO `NAVIN`.`beacon_category`
+(
+`category_id`,
+`beacon_id`)
+VALUES
+(
+2,
+73);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+71,
+72,
+0,
+7);
+
+INSERT INTO `NAVIN`.`connection`
+(
+`beacon_a_id`,
+`beacon_b_id`,
+`direction`,
+`distance`)
+VALUES
+(
+72,
+73,
+90,
+10);
