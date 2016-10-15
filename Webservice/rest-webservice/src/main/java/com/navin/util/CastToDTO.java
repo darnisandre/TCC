@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.navin.dto.BeaconDTO;
+import com.navin.dto.BeaconTypeDTO;
 import com.navin.dto.CategoryDTO;
 import com.navin.dto.ConfigurationDTO;
 import com.navin.dto.ConnectionDTO;
@@ -11,6 +12,7 @@ import com.navin.dto.GateDTO;
 import com.navin.dto.LocationDTO;
 import com.navin.dto.RouteDTO;
 import com.navin.entity.Beacon;
+import com.navin.entity.BeaconType;
 import com.navin.entity.Category;
 import com.navin.entity.Configuration;
 import com.navin.entity.Connection;
@@ -79,16 +81,16 @@ public class CastToDTO {
 		return dto;
 	}
 
-	public static CategoryDTO toDto(Category c) {
+	public static CategoryDTO toDto(Category c, List<Beacon> beacons) {
 		CategoryDTO dto = new CategoryDTO();
 		dto.setDescription(c.getDescription());
 		dto.setId(c.getId());
 		dto.setName(c.getName());
-		List<BeaconDTO> beacons = new ArrayList<BeaconDTO>();
-		for (Beacon b : c.getBeacons()) {
-			beacons.add(toDto(b));
+		List<BeaconDTO> beaconsDto = new ArrayList<BeaconDTO>();
+		for (Beacon b : beacons) {
+			beaconsDto.add(toDto(b));
 		}
-		dto.setBeacons(beacons);
+		dto.setBeacons(beaconsDto);
 		
 		
 		return dto;
@@ -121,6 +123,15 @@ public class CastToDTO {
 		}
 		dto.setRoutes(routes);
 		
+		dto.setType(toDto(b.getType()));
+		
+		return dto;
+	}
+
+	private static BeaconTypeDTO toDto(BeaconType type) {
+		BeaconTypeDTO dto = new BeaconTypeDTO();
+		dto.setDescription(type.getDescription());
+		dto.setId(type.getId());
 		return dto;
 	}
 }

@@ -30,4 +30,9 @@ public class LocationDAO extends AbstractDAO {
 		criteria.add(Restrictions.eq("id", locationId));
 		return (Location) criteria.uniqueResult();
 	}
+
+	public List<Location> getAllLocations() {
+		Criteria criteria = createCriteria(Location.class, "l");
+		return criteria.list();
+	}
 }

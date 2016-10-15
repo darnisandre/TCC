@@ -23,4 +23,11 @@ public class LocationResource {
 		return LocationService.instace().findLocationByLatLong(latitude, longitude);
 	}
 
+	@Path("all")
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	@Consumes({ MediaType.APPLICATION_JSON })
+	public List<LocationDTO> getAllLocation() {
+		return LocationService.instace().getAllLocations();
+	}
 }

@@ -37,4 +37,13 @@ public class LocationService {
 		}
 		return locationDAO;
 	}
+
+	public List<LocationDTO> getAllLocations() {
+		List<Location> locations = getLocationDAO().getAllLocations();
+		List<LocationDTO> locationsDto = new ArrayList<LocationDTO>();
+		for(Location l : locations){
+			locationsDto.add(CastToDTO.toDto(l));
+		}
+		return locationsDto;
+	}
 }

@@ -23,5 +23,16 @@ public class BeaconDAO extends AbstractDAO {
 		criteria.add(Restrictions.eq("l.id", locationId));
 		return criteria.list();
 	}
+	public List<Beacon> findBeaconsByLocationAndCategory(Long locationId, Long category) {
+		Criteria criteria = createCriteria(Beacon.class, "b");
+		criteria.createAlias("b.configuration", "c");
+		criteria.createAlias("b.categories", "cat");
+		criteria.createAlias("c.location", "l");
+		criteria.add(Restrictions.eqProperty("l.activeConfiguration.id", "c.id"));
+		criteria.add(Restrictions.eq("cat.id", category));
+		criteria.add(Restrictions.eq("l.id", locationId));
+		criteria.setResultTransformer(Criteria.DISTINCT_ROOT_ENTITY);
+		return criteria.list();
+	}
 
 }
