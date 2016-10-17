@@ -218,7 +218,7 @@ INSERT INTO `NAVIN`.`category`
 `description`)
 VALUES
 (1,
-"Entrada/Saida",
+"Entrada/Saída",
 "Beacons que são entrada ou saída do local");
 
 INSERT INTO `NAVIN`.`category`
